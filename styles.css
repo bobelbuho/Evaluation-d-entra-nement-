@@ -21,7 +21,7 @@
 
 
 .txt {
-    margin-left: -3rem;
+    margin-left: 3rem;
     z-index: 1;
 }
 
@@ -71,4 +71,7 @@
     opacity: .2;
     color: rgba(255, 255, 255, 1);
     z-index: 0;
+}
+.card .gr-3{
+    background:rgba(0, 0, 0, .27);
 }
