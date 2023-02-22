@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.1/css/bootstrap.min.css" integrity="sha384-Oh0dJ2Tn+uT/WG+CjkBwuJ3wnbs+wt9X1DpArNlFvq3zHpzdj7VZU6K1g7f/0WYu" crossorigin="anonymous">
+    <title>Jeu javascript</title>
+</head>
+<body>
+
+	<div class="wrapper mx-auto text-center">
+		<div class="player-0-panel active">
+			<div class="player-name" id="name-0">Player 1</div>
+			<div class="player-score" id="score-0">0</div>
+			<div class="player-current-box">
+				<div class="player-current-label">Current</div>
+				<div class="player-current-score" id="current-0">0</div>
+			</div>
+		</div>
+		<div class="player-1-panel">
+			<div class="player-name" id="name-1">Player 2</div>
+			<div class="player-score" id="score-1">0</div>
+			<div class="player-current-box">
+				<div class="player-current-label">Current</div>
+				<div class="player-current-score" id="current-1">0</div>
+			</div>
+		</div>
+
+		<button class="btn-new" id="btn-new"><img src="./images/newGame.png">New game</button>
+		<button class="btn-roll" id="btn-roll"><img src="./images/rollDice.png"> Dice</button>
+		<button class="btn-hold" id="btn-hold">Hold</button>
+
+		<div class="dice" id="dice-0">
+            <p id="current-player"></p>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
+

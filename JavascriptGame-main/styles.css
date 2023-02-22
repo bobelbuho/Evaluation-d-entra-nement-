@@ -1,0 +1,145 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+ /* Couleurs */
+body {
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .container {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  #name-0,
+  #name-1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #c0392b; /* rouge */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .player-0-panel,
+  .player-1-panel {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #c0392b; /* rouge */
+    color: #fff; /* blanc */
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .player-0-panel.active,
+  .player-1-panel.active {
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.75);
+  }
+  
+  #score-0,
+  #score-1 {
+    font-size: 6rem;
+    font-weight: 100;
+    margin: 0;
+  }
+  
+  .current-score {
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin: 30px 0;
+  }
+  
+  .btn-roll {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    padding: 10px 20px;
+    background-color: #fff; /* blanc */
+    color: #c0392b; /* rouge */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-hold {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    padding: 10px 20px;
+    background-color: #c0392b; /* rouge */
+    color: #fff; /* blanc */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .btn-new {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+    padding: 5px 10px;
+    background-color: #fff; /* blanc */
+    color: #c0392b; /* rouge */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .btn-new img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  .btn-new {
+    text-align: center;
+  }
+  
+  
+  /* Dé */
+  .dice {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-image: url("./images/dice.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .dice.active {
+    animation: shake 0.4s;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: rotate(0deg);
+    }
+    20% {
+      transform: rotate(20deg);
+    }
+    40% {
+      transform: rotate(0deg);
+    }
+    60% {
+      transform: rotate(-20deg);
+    }
+    80% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
