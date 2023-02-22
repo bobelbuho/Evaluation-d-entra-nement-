@@ -25,8 +25,8 @@ body {
     width: 45%;
     display: inline-block;
     vertical-align: top;
-    background-color: #c0392b; /* rouge */
-    color: #fff; /* blanc */
+    background-color: #c0392b;
+    color: #fff;
     padding: 50px;
     border-radius: 5px;
     text-align: center;
@@ -58,8 +58,8 @@ body {
     margin: 0 auto;
     font-size: 2.5rem;
     padding: 10px 20px;
-    background-color: #fff; /* blanc */
-    color: #c0392b; /* rouge */
+    background-color: #fff;
+    color: #c0392b;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -71,8 +71,8 @@ body {
     margin: 0 auto;
     font-size: 2.5rem;
     padding: 10px 20px;
-    background-color: #c0392b; /* rouge */
-    color: #fff; /* blanc */
+    background-color: #c0392b;
+    color: #fff;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -85,8 +85,8 @@ body {
     margin: 0 auto;
     font-size: 2rem;
     padding: 5px 10px;
-    background-color: #fff; /* blanc */
-    color: #c0392b; /* rouge */
+    background-color: #fff; 
+    color: #c0392b;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -102,9 +102,6 @@ body {
   .btn-new {
     text-align: center;
   }
-  
-  
-  /* Dé */
   .dice {
     display: block;
     margin: 0 auto;
@@ -116,30 +113,5 @@ body {
     background-size: cover;
     position: relative;
     cursor: pointer;
-  }
-  
-  .dice.active {
-    animation: shake 0.4s;
-  }
-  
-  @keyframes shake {
-    0% {
-      transform: rotate(0deg);
-    }
-    20% {
-      transform: rotate(20deg);
-    }
-    40% {
-      transform: rotate(0deg);
-    }
-    60% {
-      transform: rotate(-20deg);
-    }
-    80% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
   }
   
