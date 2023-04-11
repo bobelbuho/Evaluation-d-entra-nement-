@@ -40,7 +40,7 @@ class Controls {
                     this.reverse = false;
                     break;
             }
-            console.table(this);
+           
         }
     }
 }
