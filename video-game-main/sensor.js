@@ -33,6 +33,10 @@ class Sensor{
             ctx.moveTo(
                 this.rays[i][0].x,
                 this.rays[i][0].y
+            );
+            ctx.lineTo(
+                this.rays[i][1].x,
+                this.rays[i][1].y
             )
         }
     }
