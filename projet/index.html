@@ -336,6 +336,16 @@
     <a href="https://codepen.io/collection/DxkYzq" target="_blank" class="btn btn_works">My Works</a>
     <button class="btn" id="fullscr">Go Fullscreen</button>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+        function sayHello(){
+            `Bonjour ${name} !`;
+        }
+        const name = prompt("votre nom ?");
+        if(name){
+            console.log(sayHello (name))
+        }else {
+            console.log("Vous n'avez rien rentré");
+        }
+    </script>
 </body>
 </html>
