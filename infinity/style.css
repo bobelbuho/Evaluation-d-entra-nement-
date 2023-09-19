@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #042104;
+}
+section .container{
+    display: flex;
+}
+section .container .circle{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
